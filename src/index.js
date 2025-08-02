@@ -17,9 +17,9 @@ export const portfolioData = {
       company: "Express.js",
       period: "June.2025 - Present",
       link: "https://expressjs.com/",
-      description: `• Developed modern recruiting software with enhanced PostgreSQL performance.
-• Led database migrations using drizzle-orm.
-• Streamlined Docker builds and improved logging with consola.`,
+      description: `• Contributed to Express.js core and middleware improvements.
+• Helped optimize request handling and routing performance and TypeScript support.
+• Reviewing PRs, and improved documentation.`,
     },
     {
       role: "Team Member & Open Source Contributor",
