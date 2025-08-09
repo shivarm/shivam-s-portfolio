@@ -94,8 +94,11 @@ export default function App() {
               <div key={idx} className="p-4 bg-gray-800 text-gray-100 rounded-lg shadow">
                 <h3 className="text-xl font-bold">{project.name}</h3>
                 <p>{project.description}</p>
-                <a href={project.link} className="text-blue-400 hover:underline">
+                <a href={project.view} className="text-blue-400 hover:underline" target="_blank">
                   View Project
+                </a>
+                <a href={project.github} className="ml-5 text-blue-400 hover:underline" target="_blank">
+                  Github
                 </a>
               </div>
             ))}
