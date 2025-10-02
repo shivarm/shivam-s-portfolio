@@ -6,10 +6,10 @@ export const portfolioData = {
   experience: [
     {
       role: "Full Stack Developer",
-      company: "self-employed",
-      period: "May.2025 - Present",
-      description: `• Delivered 15+ full-stack projects for clients worldwide.
-• Specialized in Next.js, React, Node.js, and cloud deployments.`,
+      company: "CodePillars",
+      period: "Sep.2025 - Present",
+      description: `• Building crypto marketplace platform focused on advisor, fundraising, launchpad and more..
+• Utilizing React, Node.js, Express.js, MongoDB and cloud deployments.`,
     },
     {
       role: "Open Source Collaborator",
