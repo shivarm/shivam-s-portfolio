@@ -8,7 +8,7 @@ export const portfolioData = {
       role: "Full Stack Developer",
       company: "CodePillars",
       period: "Sep.2025 - Present",
-      description: `• Building crypto marketplace platform focused on advisor, fundraising, launchpad and more..
+      description: `• Building crypto marketplace platform focused on advisors, fundraising, launchpad and more.
 • Utilizing React, Node.js, Express.js, MongoDB and cloud deployments.`,
     },
     {
