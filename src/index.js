@@ -2,56 +2,52 @@ export const portfolioData = {
   name: "Shivam Sharma",
   title: "Full Stack Developer",
   about:
-    "I'm Shivam Sharma an open source passionate and specialize in building robust, scalable web applications using JavaScript, TypeScript, Next.js/React, Node.js, MongoDB, and PostgreSQL. Performance optimization for large-scale projects. I thrive in collaborative environments, enjoy solving complex problems, and am always eager to learn new technologies and contribute to impactful projects.",
+    "I'm Shivam Sharma, a results-driven Full Stack Developer at CodePillars, building the next-gen crypto marketplace. I craft scalable apps with React, Node.js, and TypeScript, and bring blockchain to life with MetaMask and Ether.js. From real-time chat to secure APIs, I turn complex ideas into powerful digital products. Let's build the future, together!",
   experience: [
     {
       role: "Full Stack Developer",
       company: "CodePillars",
-      period: "Sep.2025 - Present",
-      description: `• Building crypto marketplace platform focused on advisors, fundraising, launchpad and more.
-• Utilizing React, Node.js, Express.js, MongoDB and cloud deployments.`,
+      period: "Sept.2025 - Present",
+      link: "https://coatpillars.com/",
+      description: `• Building a scalable crypto marketplace platform from scratch.\n• Integrated Ethereum wallet (MetaMask) and Ether.js for blockchain transactions.\n• Developed secure RESTful APIs using Node.js, Express.js, MongoDB, and JWT authentication.\n• Implemented real-time messaging with Socket.io.\n• Integrated 3rd party APIs (YouTube, etc.) for enhanced user experience.\n• Led a team of developers and collaborated with designers and blockchain engineers.`,
     },
     {
       role: "Open Source Collaborator",
       company: "Express.js",
       period: "June.2025 - Present",
       link: "https://expressjs.com/",
-      description: `• Contributed to Express.js core and middleware improvements.
-• Helped optimize request handling and routing performance and TypeScript support.
-• Reviewing PRs and performance optimization.`,
-    },
-    {
-      role: "Open Source Collaborator",
-      company: "ProfileCity",
-      period: "Aug.2024 - June.2025",
-      link: "https://profilecity.com/",
-      description: `• Developed modern recruiting software with enhanced PostgreSQL performance.
-• Led database migrations using drizzle-orm.
-• Streamlined Docker builds and improved logging with consola.`,
+      description: `• Contributed to the Express.js v5.2.0 security release, identifying and fixing security vulnerabilities and reviewing.
+• Helped remediate CVE-2025-13466 by upgrading body-parser to v2.2.1, contributing to a production release.
+• Improved github action CI workflows by implementing manual GitHub Actions triggers for targeted branch testing.`,
     },
     {
       role: "Open Source Developer",
       company: "Horreum (Red Hat)",
       period: "Feb.2023 - Aug.2024",
       link: "https://github.com/Hyperfoil/Horreum",
-      description: `• Boosted frontend performance and upgraded React 17 to 18.
-• Led CRA to Vite migration and fixed Windows-specific issues.`,
+      description: `• Contributed to Improve frontend performance and user experience, achieving 30% performance gains.
+• Led migration from React 17 to React 18, reducing page load times by 25%, enhance user interaction speed.
+• Spearheaded transition from Create React App to Vite, improving developer experience and build speed by 30%`,
     },
   ],
   projects: [
+    {
+      name: "Algo Meet",
+      description: "A lightweight video calling and collaborative coding interview platform.",
+      github: "https://github.com/shivarm/algo-meet",
+       view: "https://algo-meet.onrender.com/"
+    },
      {
       name: "Sleep Tracker",
       description: "A modern sleep tracking web application built with Next.js 15.",
       github: "https://github.com/shivarm/sleep-tracker",
       view: "https://sleep-tracker-orpin.vercel.app/"
     },
-    {
-      name: "Web Check",
-      description: "A lightweight tool designed to measure the response time and SSL Certificate Details of websites..",
-      github: "https://github.com/shivarm/web-check",
-    },
   ],
-  skills: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "MongoDB", "PostgreSQL", "HTML", "CSS"],
+  skills: [
+    "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL",
+    "Ethereum", "MetaMask", "Ether.js", "Socket.io", "JWT", "RESTful APIs", "API Integration", "HTML", "CSS"
+  ],
   contact: {
     email: "meshivam81@gmail.com",
     github: "https://github.com/shivarm",
